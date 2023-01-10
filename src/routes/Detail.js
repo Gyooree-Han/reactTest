@@ -50,7 +50,7 @@ function Detail(){
     useEffect(()=>{
         getMovie()
     },[]);
-    console.log(details)
+    console.log()
 
     return <Section>
         <FlexArea>
