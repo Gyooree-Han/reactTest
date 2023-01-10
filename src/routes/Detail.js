@@ -63,8 +63,8 @@ function Detail(){
                 </Ul>
             </div>
             <div className="right">
-                <ImgCover>없는 이미지</ImgCover>
-                {/* { details.image === null ? <ImgCover>없는 이미지</ImgCover> : <img src={details.image.medium}/>} */}
+                {/* <ImgCover>없는 이미지</ImgCover> */}
+                { details.image === null ? <ImgCover>없는 이미지</ImgCover> : <img src={details.image && details.image.medium}/>}
                 {/* <ImgCover></ImgCover> */}
             </div>
         </FlexArea>
